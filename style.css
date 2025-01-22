@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.navbar {
+    display: flex;
+    gap: 40px;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.roger {
+   height: 200px;
+    width: auto;
+}
+
+
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.information-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+}
