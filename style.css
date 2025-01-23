@@ -9,6 +9,7 @@ body {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 20px;
+    width: 100%;
 }
 
 .logo {
@@ -20,7 +21,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
 
 }
 
@@ -42,7 +42,6 @@ body {
     justify-content: center;
     gap: 40px;
     margin-top: 50px;
-    width: 100%;
 }
 
 .roger {
@@ -50,7 +49,38 @@ body {
     width: auto;
 }
 
+.container3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 30px;
+}
 
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.box {
+    text-align: center;
+    width: 150px;
+    color: grey;
+    font-size: 12px;
+}
+
+.boxbox {
+   width: 100%;
+   height: 150px;
+   border: 2px #3882f6 solid;
+   border-radius: 20px;
+}
 
 h1 {
     font-size: 48px;
@@ -60,7 +90,7 @@ h1 {
 
 h2 {
     font-size: 18px;
-    color: #e5e7eb;
+    color: black;
 }
 
 h3 {
@@ -75,6 +105,7 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .information-text {
