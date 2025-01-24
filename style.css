@@ -114,14 +114,32 @@ button {
     font-weight: 900;
 }
 
-.quote-section {
+.container4 {
     background-color: #e5e7eb;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote-text {
-    font-size: 36px;
+    font-size: 18px;
     color: #1f2937;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%
+}
+
+.citat {
+   font-size: 12px;
+   display: flex;
+   justify-content: flex-end;
+   font-style: normal;
+   font-weight: 900;
+   
 }
